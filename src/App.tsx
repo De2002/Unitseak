@@ -35,7 +35,11 @@ const App = () => (
           <Route path="/converter/length" element={<LengthConverter />} />
           <Route path="/converter/length/:pair" element={<LengthPairConverter />} />
           <Route path="/converter/weight" element={<WeightConverter />} />
+          <Route path="/converter/mass" element={<WeightConverter />} />
+          <Route path="/converter/weight-mass" element={<WeightConverter />} />
           <Route path="/converter/weight/:pair" element={<WeightPairConverter />} />
+          <Route path="/converter/mass/:pair" element={<WeightPairConverter />} />
+          <Route path="/converter/weight-mass/:pair" element={<WeightPairConverter />} />
           <Route path="/converter/volume" element={<VolumeConverter />} />
           <Route path="/converter/volume/:pair" element={<VolumePairConverter />} />
           <Route path="/converter/temperature" element={<TemperatureConverter />} />
